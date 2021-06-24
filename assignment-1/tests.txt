@@ -1,0 +1,83 @@
+
+curl --request GET \
+  --url http://localhost:8000/business/
+
+curl --request GET \
+  --url http://localhost:8000/business/0
+
+curl --request GET \
+  --url http://localhost:8000/reviews/
+
+curl --request GET \
+  --url http://localhost:8000/reviews/0
+
+
+  curl --request GET \
+  --url http://localhost:8000/users/0
+
+curl --request POST \
+  --url http://localhost:8000/business/ \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "name": "Sorens Sizzlers",
+  "address": "1327 Sw 14th St",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": 97333,
+  "phone": "541-221-5555",
+  "website": "https://google.com",
+  "email": "soren.google@email.com",
+  "category": "Food",
+  "subcategory": "Sit-Down"
+}'
+
+curl --request POST \
+  --url http://localhost:8000/reviews/1/0 \
+  --header 'Content-Type: application/json' \
+  --data '
+  {
+    "rating": 1,
+    "price": "$"
+  }'
+
+  curl --request POST \
+  --url http://localhost:8000/users/1 \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "image": "PizzaPic.png",
+  "caption": "Wow Look at this Pizza!"
+}'
+
+curl --request PUT \
+  --url http://localhost:8000/business/1 \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "name": "Sorens Sizzlers",
+  "address": "1327 Sw 14th St",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": 97333,
+  "phone": "541-221-5555",
+  "website": "https://google.com",
+  "email": "soren.google@email.com",
+  "category": "Food",
+  "subcategory": "Sit-Down"
+}'
+
+curl --request PUT \
+  --url http://localhost:8000/reviews/0 \
+  --header 'Content-Type: application/json' \
+  --data '
+  {
+    "rating": 1,
+    "price": "$",
+    "written": "Not worth for the price"
+}'
+
+curl --request PUT \
+  --url http://localhost:8000/users/0 \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "image": "PizzaPic.png",
+  "caption": "Wow Look at this Pizza!"
+}'

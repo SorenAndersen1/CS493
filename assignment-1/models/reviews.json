@@ -1,0 +1,17 @@
+[
+    {
+      "rating": 2,
+      "price": "$$$",
+      "links": {
+          "business" : "/business/0"
+      }
+    },
+    {
+      "rating": 0,
+      "price": "$",
+      "written": "Horrible Service",
+      "links": {
+        "business" : "/business/1"
+    }
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Hanks Hand Fishing",
+      "address": "132 Nantucket Dr",
+      "city": "Eugene",
+      "state": "OR",
+      "zip": 97404,
+      "phone": "541-223-9743",
+      "website": "https://facebook.com",
+      "email": "Henry@debmail.com",
+      "category": "Outdoors",
+      "subcategory": "Fish"
+    },
+    {
+      "name": "Ian Ice Cream",
+      "address": "727 Buccaneer Rd",
+      "city": "Tampa Bay",
+      "state": "FL",
+      "zip": 11111,
+      "phone": "541-541-5412",
+      "website": "https://twitter.com",
+      "email": "skaggs@gmail.email",
+      "category": "Desserts",
+      "subcategory": "Ice Cream"
+    }
+  ]

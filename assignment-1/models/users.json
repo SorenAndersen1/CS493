@@ -1,0 +1,9 @@
+[
+    {      
+      "image": "example.png",
+      "caption": "coffee",
+      "links": {
+        "businesses": "/business/0"
+      }
+    }
+]
